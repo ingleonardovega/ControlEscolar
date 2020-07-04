@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.4.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43439.5122617708" ReportOptions.Description.Text="" ReportOptions.LastChange="43538.4793044213" ScriptLanguage="PascalScript" ScriptText.Text="procedure Page1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;procedure ComboBox2OnClick(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;procedure ImprimirOnClick(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;        alumno.SQL.Clear;&#13;&#10;  alumno.SQL.Add('SELECT CONCAT(ficha_tecnica.paterno_alumno,&#34; &#34;,ficha_tecnica.materno_alumno,&#34; &#34;,ficha_tecnica.nombre_alumno) AS nombre, tutor FROM ficha_tecnica WHERE status_alumno = 1 AND semestre = '+ComboBox1.Text+' AND grupo = '+CHR(39)+ComboBox2.Text+chr(39)+' ORDER BY nombre ASC');&#13;&#10;  alumno.Open;&#13;&#10;end;&#13;&#10;&#13;&#10;procedure Label2OnClick(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="alumno" DataSetName="alumno"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000">
+    <TfrxADODatabase Name="ADODatabase1" DatabaseName="Provider=MSDASQL.1;Persist Security Info=False;Data Source=FPTweb;" LoginPrompt="False" Connected="True" PropData="05704C65667402700470546F700234"/>
+    <TfrxADOQuery Name="alumno" UserName="alumno" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" IgnoreDupParams="False" SQL.Text="select CONCAT(ficha_tecnica.`paterno_alumno`,' ',ficha_tecnica.`materno_alumno`,' ',`ficha_tecnica`.`nombre_alumno`) AS nombre, tutor from ficha_tecnica&#13;&#10;                                                             " CommandTimeout="30" Database="ADODatabase1" LockType="ltReadOnly" PropData="05704C65667403AC000470546F7003AC000A506172616D65746572730100"/>
+  </TfrxDataPage>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="279.4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="5" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" OnBeforePrint="Page1OnBeforePrint">
+    <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="49.13389" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxShapeView Name="Shape6" Left="3.77953" Top="23.45671" Width="714.33117" Height="22.67718" Fill.BackColor="-16777214" Frame.Color="-16777214" Frame.ShadowColor="32768" Shape="skRoundRectangle"/>
+      <TfrxMemoView Name="Memo4" Left="3.77953" Top="23.45671" Width="714.33117" Height="18.89765" Font.Charset="1" Font.Color="16777215" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="#          ALUMNO                                               TUTOR                                                       FECHA                    FIRMA"/>
+      <TfrxMemoView Name="Memo5" Left="26.45671" Top="0" Width="366.61441" Height="22.67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="LISTA DE ENTREGAS DE BOLETAS"/>
+      <TfrxMemoView Name="Memo6" Left="396.85065" Top="0.55906" Width="340.1577" Height="22.67718" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="Arial" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[ComboBox1.text] SEMESTRE GRUPO [ComboBox2.text]"/>
+    </TfrxHeader>
+    <TfrxFooter Name="Footer1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="18.89765" Left="0" Top="132.28355" Width="740.409927"/>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="18.89765" Left="0" Top="90.70872" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="alumno" DataSetName="alumno" RowCount="0">
+      <TfrxShapeView Name="Shape1" Left="2.55906" Top="0" Width="22.67718" Height="15.11812" Shape="skRoundRectangle"/>
+      <TfrxShapeView Name="Shape3" Left="279.68522" Top="0" Width="234.33086" Height="15.11812" Shape="skRoundRectangle"/>
+      <TfrxShapeView Name="Shape2" Left="26.45671" Top="0" Width="249.44898" Height="15.11812" Shape="skRoundRectangle"/>
+      <TfrxMemoView Name="Memo1" Left="27.7953" Top="0" Width="245.66945" Height="15.11812" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" WordBreak="True" VAlign="vaCenter" Text="[alumno.&#34;nombre&#34;]"/>
+      <TfrxMemoView Name="Memo2" Left="281.02381" Top="0" Width="230.55133" Height="15.11812" DataField="tutor" DataSet="alumno" DataSetName="alumno" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" WordBreak="True" VAlign="vaCenter" Text="[alumno.&#34;tutor&#34;]"/>
+      <TfrxShapeView Name="Shape4" Left="514.01608" Top="0" Width="94.48825" Height="15.11812" Shape="skRoundRectangle"/>
+      <TfrxShapeView Name="Shape5" Left="608.50433" Top="0" Width="109.60637" Height="15.11812" Shape="skRoundRectangle"/>
+      <TfrxMemoView Name="Memo3" Left="5.11812" Top="1.77953" Width="18.89765" Height="11.33859" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[Line#]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+  <TfrxDialogPage Name="DialogPage1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" BorderStyle="bsToolWindow" Caption="Lista entrega boletas" Height="256" ClientHeight="217" Left="558" Top="126" Width="259" ClientWidth="243">
+    <TfrxComboBoxControl Name="ComboBox1" Left="51" Top="60" Width="141" Height="21" ShowHint="True" Color="-16777211" Items.Text="1&#13;&#10;2&#13;&#10;3&#13;&#10;4&#13;&#10;5&#13;&#10;6" ItemIndex="-1"/>
+    <TfrxComboBoxControl Name="ComboBox2" Left="52" Top="112" Width="141" Height="21" ShowHint="True" Color="-16777211" Items.Text="A&#13;&#10;B" ItemIndex="-1"/>
+    <TfrxButtonControl Name="Imprimir" Left="72" Top="152" Width="107" Height="45" ShowHint="True" Caption="Imprimir" ModalResult="1" OnClick="ImprimirOnClick"/>
+    <TfrxLabelControl Name="Label1" Left="52" Top="40" Width="56" Height="16" ShowHint="True" Caption="Semestre" Color="-16777201"/>
+    <TfrxLabelControl Name="Label2" Left="56" Top="92" Width="35" Height="16" ShowHint="True" Caption="Grupo" Color="-16777201"/>
+  </TfrxDialogPage>
+</TfrxReport>

@@ -1,0 +1,7 @@
+ODBC       FPTweb
+
+host       www.bachillerato-fpt.com.mx
+user       bachi_fpt
+password   FPT1q2w3e4r#
+name       bachill7_fpt
+table_name registro_web
