@@ -43279,7 +43279,6 @@ object Form1: TForm1
       item
         Width = 400
       end>
-    ExplicitWidth = 920
   end
   object CategoryPanelGroup1: TCategoryPanelGroup
     Left = 0
@@ -43645,11 +43644,11 @@ object Form1: TForm1
   object Timer1: TTimer
     Interval = 10000
     OnTimer = Timer1Timer
-    Left = 704
-    Top = 48
+    Left = 512
+    Top = 72
   end
   object print: TfrxReport
-    Version = '5.6.1'
+    Version = '6.3.7'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -43753,8 +43752,11 @@ object Form1: TForm1
       ColumnWidth = 202.000000000000000000
       ColumnPositions.Strings = (
         '0')
+      Frame.Typ = []
+      MirrorMode = []
       object MasterData1: TfrxMasterData
         FillType = ftBrush
+        Frame.Typ = []
         Height = 846.055660000000000000
         Top = 128.000000000000000000
         Width = 763.087107000000000000
@@ -43762,6 +43764,7 @@ object Form1: TForm1
         DataSetName = 'ADOQuery1'
         RowCount = 0
         object Shape19: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 114.385900000000000000
           Width = 230.551330000000000000
@@ -43769,10 +43772,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo11: TfrxMemoView
+          AllowVectorExport = True
           Left = 132.401670000000000000
           Top = 58.692950000000000000
           Width = 94.488250000000000000
@@ -43782,6 +43787,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'BACHILLERATO')
@@ -43789,22 +43795,27 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape18: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 133.283550000000000000
           Width = 230.551330000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape5: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 19.897650000000000000
           Width = 230.551330000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape7: TfrxShapeView
+          AllowVectorExport = True
           Left = 232.551330000000000000
           Top = 1.000000000000000000
           Width = 113.385900000000000000
@@ -43812,10 +43823,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape4: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 1.000000000000000000
           Width = 230.551330000000000000
@@ -43823,10 +43836,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo2: TfrxMemoView
+          AllowVectorExport = True
           Left = 18.118120000000000000
           Top = 135.063080000000000000
           Width = 200.315090000000000000
@@ -43839,6 +43854,7 @@ object Form1: TForm1
           Font.Height = -8
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[ADOQuery1."cargo"]')
@@ -43846,6 +43862,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo4: TfrxMemoView
+          AllowVectorExport = True
           Left = 4.661410000000000000
           Top = 2.000000000000000000
           Width = 200.315090000000000000
@@ -43855,6 +43872,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'NOMBRE DE LA ESCUELA')
@@ -43862,6 +43880,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo5: TfrxMemoView
+          AllowVectorExport = True
           Left = 6.118120000000000000
           Top = 20.897650000000000000
           Width = 200.315090000000000000
@@ -43871,6 +43890,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'FRANCISCO DEL PASO Y TRONCOSO')
@@ -43878,6 +43898,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo6: TfrxMemoView
+          AllowVectorExport = True
           Left = 235.330860000000000000
           Top = 2.000000000000000000
           Width = 102.047310000000000000
@@ -43887,6 +43908,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'CLAVE')
@@ -43894,14 +43916,17 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape6: TfrxShapeView
+          AllowVectorExport = True
           Left = 232.551330000000000000
           Top = 19.897650000000000000
           Width = 113.385900000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo7: TfrxMemoView
+          AllowVectorExport = True
           Left = 250.448980000000000000
           Top = 20.897650000000000000
           Width = 86.929190000000000000
@@ -43911,6 +43936,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '30EBH0399D')
@@ -43918,23 +43944,28 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape8: TfrxShapeView
+          AllowVectorExport = True
           Top = 57.692950000000000000
           Width = 132.283550000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape9: TfrxShapeView
+          AllowVectorExport = True
           Top = 38.795300000000000000
           Width = 132.283550000000000000
           Height = 18.897650000000000000
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo8: TfrxMemoView
+          AllowVectorExport = True
           Left = 10.763760000000000000
           Top = 39.795300000000000000
           Width = 128.504020000000000000
@@ -43944,6 +43975,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'LOCALIDAD')
@@ -43951,6 +43983,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo9: TfrxMemoView
+          AllowVectorExport = True
           Left = 8.661410000000000000
           Top = 58.692950000000000000
           Width = 132.283550000000000000
@@ -43960,6 +43993,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'VERACRUZ, VER.')
@@ -43967,14 +44001,17 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape10: TfrxShapeView
+          AllowVectorExport = True
           Left = 132.283550000000000000
           Top = 57.692950000000000000
           Width = 98.267780000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape11: TfrxShapeView
+          AllowVectorExport = True
           Left = 132.299320000000000000
           Top = 38.795300000000000000
           Width = 98.267780000000000000
@@ -43982,10 +44019,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo10: TfrxMemoView
+          AllowVectorExport = True
           Left = 138.283550000000000000
           Top = 39.795300000000000000
           Width = 86.929190000000000000
@@ -43995,6 +44034,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'NIVEL')
@@ -44002,14 +44042,17 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape12: TfrxShapeView
+          AllowVectorExport = True
           Left = 232.551330000000000000
           Top = 57.692950000000000000
           Width = 113.385900000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape13: TfrxShapeView
+          AllowVectorExport = True
           Left = 232.330860000000000000
           Top = 38.795300000000000000
           Width = 113.385900000000000000
@@ -44017,10 +44060,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo12: TfrxMemoView
+          AllowVectorExport = True
           Left = 257.212740000000000000
           Top = 39.795300000000000000
           Width = 71.811070000000000000
@@ -44030,6 +44075,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'TURNO')
@@ -44037,6 +44083,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo13: TfrxMemoView
+          AllowVectorExport = True
           Left = 254.330860000000000000
           Top = 58.692950000000000000
           Width = 75.590600000000000000
@@ -44046,6 +44093,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'MATUTINO')
@@ -44053,14 +44101,17 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape14: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 95.488250000000000000
           Width = 343.937230000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape15: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 76.590600000000000000
           Width = 343.937230000000000000
@@ -44068,10 +44119,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo14: TfrxMemoView
+          AllowVectorExport = True
           Left = 22.102350000000000000
           Top = 113.606370000000000000
           Width = 188.976500000000000000
@@ -44081,6 +44134,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'CARGO QUE DESEMPE'#209'A')
@@ -44088,6 +44142,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo15: TfrxMemoView
+          AllowVectorExport = True
           Left = 4.881880000000000000
           Top = 96.488250000000000000
           Width = 340.157700000000000000
@@ -44099,6 +44154,7 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             
@@ -44108,6 +44164,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo18: TfrxMemoView
+          AllowVectorExport = True
           Left = 97.692950000000000000
           Top = 77.590600000000000000
           Width = 170.078850000000000000
@@ -44117,6 +44174,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'NOMBRE DEL PERSONAL')
@@ -44124,14 +44182,17 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape20: TfrxShapeView
+          AllowVectorExport = True
           Left = 232.551330000000000000
           Top = 133.283550000000000000
           Width = 113.385900000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape21: TfrxShapeView
+          AllowVectorExport = True
           Left = 232.330860000000000000
           Top = 114.385900000000000000
           Width = 113.385900000000000000
@@ -44139,10 +44200,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo19: TfrxMemoView
+          AllowVectorExport = True
           Left = 238.315090000000000000
           Top = 115.385900000000000000
           Width = 79.370130000000000000
@@ -44152,6 +44215,7 @@ object Form1: TForm1
           Font.Height = -11
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'MES/A'#209'O')
@@ -44159,6 +44223,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo20: TfrxMemoView
+          AllowVectorExport = True
           Left = 239.212740000000000000
           Top = 133.283550000000000000
           Width = 94.488250000000000000
@@ -44170,6 +44235,7 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[Date1.date]')
@@ -44177,6 +44243,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape22: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 159.740260000000000000
           Width = 343.937230000000000000
@@ -44184,10 +44251,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo21: TfrxMemoView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 160.740260000000000000
           Width = 79.370130000000000000
@@ -44197,6 +44266,7 @@ object Form1: TForm1
           Font.Height = -8
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'RELOJ MARCADOR'
@@ -44206,6 +44276,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo22: TfrxMemoView
+          AllowVectorExport = True
           Left = 125.724490000000000000
           Top = 167.299320000000000000
           Width = 98.267780000000000000
@@ -44215,6 +44286,7 @@ object Form1: TForm1
           Font.Height = -8
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'FIRMA DEL PERSONAL')
@@ -44222,6 +44294,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo24: TfrxMemoView
+          AllowVectorExport = True
           Left = 295.803340000000000000
           Top = 165.299320000000000000
           Width = 41.574830000000000000
@@ -44231,6 +44304,7 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'D'#205'A')
@@ -44238,608 +44312,759 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Line1: TfrxLineView
+          AllowVectorExport = True
           Left = 82.149660000000000000
           Top = 159.740260000000000000
           Height = 37.795300000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line3: TfrxLineView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 159.740260000000000000
           Height = 37.795300000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape23: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 197.535560000000000000
           Width = 79.370130000000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape24: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 220.212740000000000000
           Width = 79.370130000000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape25: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 197.535560000000000000
           Width = 211.653680000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape27: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 197.535560000000000000
           Width = 52.913420000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape28: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 242.889920000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape29: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 265.567100000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape30: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 242.889920000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape32: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 242.889920000000000000
           Width = 52.913420000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape33: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 288.244280000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape34: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 310.921460000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape35: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 288.244280000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape37: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 288.244280000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape38: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 333.598640000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape39: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 356.275820000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape40: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 333.598640000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape42: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 333.598640000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape43: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 378.953000000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape44: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 401.630180000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape45: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 378.953000000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape47: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 378.953000000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape48: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 424.307360000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape49: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 446.984540000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape50: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 424.307360000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape52: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 424.307360000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape53: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 469.661720000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape54: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 492.338900000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape55: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 469.661720000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape57: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 469.661720000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape58: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 515.016080000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape59: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 537.693260000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape60: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 515.016080000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape62: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 515.016080000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape63: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 560.370440000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape64: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 583.047620000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape65: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 560.370440000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape67: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 560.370440000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape68: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 605.724800000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape69: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 628.401980000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape70: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 605.724800000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape72: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 605.724800000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape73: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 651.079160000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape74: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 673.756340000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape75: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 651.079160000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape77: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 651.079160000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape78: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 696.433520000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape79: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 719.110700000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape80: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 696.433520000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape82: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 696.433520000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line8: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 220.212740000000000000
           Width = 211.653616540000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line9: TfrxLineView
+          AllowVectorExport = True
           Left = 125.724490000000000000
           Top = 197.535560000000000000
           Width = 117.165430000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line10: TfrxLineView
+          AllowVectorExport = True
           Left = 125.724490000000000000
           Top = 197.535560000000000000
           Width = 117.165430000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line11: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 265.567100000000000000
           Width = 211.653616540000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line12: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 310.921460000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line13: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 356.275820000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line14: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 401.630180000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line15: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 446.984540000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line16: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 492.338900000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line17: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 537.693260000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line18: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 583.047620000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line19: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 628.401980000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line20: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 673.756340000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line21: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 719.110700000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape155: TfrxShapeView
+          AllowVectorExport = True
           Left = 0.740260000000000000
           Top = 741.787880000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape156: TfrxShapeView
+          AllowVectorExport = True
           Left = 0.740260000000000000
           Top = 764.465060000000000000
           Width = 79.370078740157500000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape157: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 741.787880000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape159: TfrxShapeView
+          AllowVectorExport = True
           Left = 291.764070000000000000
           Top = 741.787880000000000000
           Width = 52.913385826771700000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line37: TfrxLineView
+          AllowVectorExport = True
           Left = 80.393700790000000000
           Top = 764.465060000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape277: TfrxShapeView
+          AllowVectorExport = True
           Left = 2.000000000000000000
           Top = 787.142240000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape278: TfrxShapeView
+          AllowVectorExport = True
           Left = 1.000000000000000000
           Top = 809.819420000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape279: TfrxShapeView
+          AllowVectorExport = True
           Left = 80.653440790000000000
           Top = 787.142240000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape281: TfrxShapeView
+          AllowVectorExport = True
           Left = 292.023810000000000000
           Top = 787.142240000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line62: TfrxLineView
+          AllowVectorExport = True
           Left = 80.653440790000000000
           Top = 809.819420000000000000
           Width = 211.653543307087000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape166: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 762.906000000000000000
           Width = 343.937230000000000000
           Height = 71.811070000000000000
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape168: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 762.906000000000000000
           Width = 343.937230000000000000
@@ -44847,18 +45072,22 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape83: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 698.653990000000000000
           Width = 340.157700000000000000
           Height = 60.472480000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape160: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 653.299630000000000000
           Width = 340.157700000000000000
@@ -44866,10 +45095,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo29: TfrxMemoView
+          AllowVectorExport = True
           Left = 472.330860000000000000
           Top = 657.079160000000000000
           Width = 162.519790000000000000
@@ -44879,19 +45110,23 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           Memo.UTF8W = (
             'HORARIO DEL PERSONAL')
           ParentFont = False
         end
         object Shape161: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 683.535870000000000000
           Width = 68.031540000000000000
           Height = 75.590600000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo31: TfrxMemoView
+          AllowVectorExport = True
           Left = 382.724490000000000000
           Top = 683.535870000000000000
           Width = 45.354360000000000000
@@ -44901,11 +45136,13 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           Memo.UTF8W = (
             'LUNES')
           ParentFont = False
         end
         object Memo32: TfrxMemoView
+          AllowVectorExport = True
           Left = 449.653680000000000000
           Top = 683.535870000000000000
           Width = 45.354360000000000000
@@ -44915,11 +45152,13 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           Memo.UTF8W = (
             'MARTES')
           ParentFont = False
         end
         object Memo33: TfrxMemoView
+          AllowVectorExport = True
           Left = 512.905690000000000000
           Top = 683.535870000000000000
           Width = 60.472480000000000000
@@ -44929,11 +45168,13 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           Memo.UTF8W = (
             'MIERCOLES')
           ParentFont = False
         end
         object Memo34: TfrxMemoView
+          AllowVectorExport = True
           Left = 574.378170000000000000
           Top = 683.535870000000000000
           Width = 60.472480000000000000
@@ -44943,12 +45184,14 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'JUEVES')
           ParentFont = False
         end
         object Memo35: TfrxMemoView
+          AllowVectorExport = True
           Left = 649.968770000000000000
           Top = 683.535870000000000000
           Width = 60.472480000000000000
@@ -44958,12 +45201,14 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'VIERNES')
           ParentFont = False
         end
         object Shape167: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 762.906000000000000000
           Width = 343.937230000000000000
@@ -44971,10 +45216,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo36: TfrxMemoView
+          AllowVectorExport = True
           Left = 373.283550000000000000
           Top = 764.685530000000000000
           Width = 328.819110000000000000
@@ -44984,44 +45231,54 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'RESUMEN ESTAD'#205'STICO ')
           ParentFont = False
         end
         object Shape169: TfrxShapeView
+          AllowVectorExport = True
           Left = 370.283550000000000000
           Top = 778.024120000000000000
           Width = 60.472480000000000000
           Height = 56.692950000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape170: TfrxShapeView
+          AllowVectorExport = True
           Left = 430.756030000000000000
           Top = 778.024120000000000000
           Width = 49.133890000000000000
           Height = 56.692950000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape171: TfrxShapeView
+          AllowVectorExport = True
           Left = 479.889920000000000000
           Top = 778.024120000000000000
           Width = 60.472480000000000000
           Height = 56.692950000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape172: TfrxShapeView
+          AllowVectorExport = True
           Left = 540.362400000000000000
           Top = 778.024120000000000000
           Width = 49.133890000000000000
           Height = 56.692950000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo37: TfrxMemoView
+          AllowVectorExport = True
           Left = 370.063080000000000000
           Top = 780.803650000000000000
           Width = 60.472480000000000000
@@ -45031,12 +45288,14 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'DIAS DEBIO LABORAR')
           ParentFont = False
         end
         object Memo38: TfrxMemoView
+          AllowVectorExport = True
           Left = 423.196970000000000000
           Top = 781.803650000000000000
           Width = 60.472480000000000000
@@ -45046,12 +45305,14 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'DIAS LABORADOS')
           ParentFont = False
         end
         object Memo39: TfrxMemoView
+          AllowVectorExport = True
           Left = 479.889920000000000000
           Top = 785.803650000000000000
           Width = 60.472480000000000000
@@ -45061,12 +45322,14 @@ object Form1: TForm1
           Font.Height = -5
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'DIAS DE PERMISOS ECONOMICOS')
           ParentFont = False
         end
         object Memo40: TfrxMemoView
+          AllowVectorExport = True
           Left = 535.582870000000000000
           Top = 781.803650000000000000
           Width = 60.472480000000000000
@@ -45076,6 +45339,7 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'RETARDOS'
@@ -45083,30 +45347,37 @@ object Form1: TForm1
           ParentFont = False
         end
         object Shape173: TfrxShapeView
+          AllowVectorExport = True
           Left = 589.496290000000000000
           Top = 789.362710000000000000
           Width = 34.015770000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape174: TfrxShapeView
+          AllowVectorExport = True
           Left = 623.512060000000000000
           Top = 789.362710000000000000
           Width = 37.795300000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape175: TfrxShapeView
+          AllowVectorExport = True
           Left = 661.086890000000000000
           Top = 789.362710000000000000
           Width = 52.913420000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo41: TfrxMemoView
+          AllowVectorExport = True
           Left = 605.614410000000000000
           Top = 779.024120000000000000
           Width = 60.472480000000000000
@@ -45116,12 +45387,14 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'FALTAS')
           ParentFont = False
         end
         object Memo42: TfrxMemoView
+          AllowVectorExport = True
           Left = 580.937230000000000000
           Top = 793.142240000000000000
           Width = 52.913420000000000000
@@ -45131,12 +45404,14 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'TOTAL')
           ParentFont = False
         end
         object Memo43: TfrxMemoView
+          AllowVectorExport = True
           Left = 612.173470000000000000
           Top = 791.362710000000000000
           Width = 52.913420000000000000
@@ -45146,12 +45421,14 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Segoe UI'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'JUST.')
           ParentFont = False
         end
         object Memo44: TfrxMemoView
+          AllowVectorExport = True
           Left = 661.086890000000000000
           Top = 793.142240000000000000
           Width = 56.692950000000000000
@@ -45161,601 +45438,751 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'INJUSTIF.')
           ParentFont = False
         end
         object Shape162: TfrxShapeView
+          AllowVectorExport = True
           Left = 438.173470000000000000
           Top = 683.622450000000000000
           Width = 68.031540000000000000
           Height = 75.590600000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape163: TfrxShapeView
+          AllowVectorExport = True
           Left = 507.205010000000000000
           Top = 683.401980000000000000
           Width = 68.031540000000000000
           Height = 75.590600000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape164: TfrxShapeView
+          AllowVectorExport = True
           Left = 575.094930000000000000
           Top = 683.488560000000000000
           Width = 68.031540000000000000
           Height = 75.590600000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape165: TfrxShapeView
+          AllowVectorExport = True
           Left = 643.268090000000000000
           Top = 683.401980000000000000
           Width = 68.031540000000000000
           Height = 75.590600000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape41: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape46: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 22.677180000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape51: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape56: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Width = 52.913420000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape61: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 45.354360000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape66: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 68.031540000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape71: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 45.354360000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape76: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 45.354360000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape81: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 90.708720000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape84: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 113.385900000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape85: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 90.708720000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape86: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 90.708720000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape87: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 136.063080000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape88: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 158.740260000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape89: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 136.063080000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape90: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 136.063080000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape91: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 181.417440000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape92: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 204.094620000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape93: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 181.417440000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape94: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 181.417440000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape95: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 226.771800000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape96: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 249.448980000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape97: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 226.771800000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape98: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 226.771800000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape99: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 272.126160000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape100: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 294.803340000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape101: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 272.126160000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape102: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 272.126160000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape103: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 317.480520000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape104: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 340.157700000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape105: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 317.480520000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape106: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 317.480520000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape107: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 362.834880000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape108: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 385.512060000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape109: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 362.834880000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape110: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 362.834880000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape111: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 408.189240000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape112: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 430.866420000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape113: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 408.189240000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape114: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 408.189240000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape115: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 453.543600000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape116: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 476.220780000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape117: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 453.543600000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape118: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 453.543600000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line23: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 22.677180000000000000
           Width = 211.653616540000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line24: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 68.031540000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line25: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 113.385900000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line26: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 158.740260000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line27: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 204.094620000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line28: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 249.448980000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line29: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 294.803340000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line30: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 340.157700000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line31: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 385.512060000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line32: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 430.866420000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line33: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 476.220780000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape119: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.393940000000000000
           Top = 498.897960000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape120: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.393940000000000000
           Top = 521.575140000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape121: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 498.897960000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape122: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.417750000000000000
           Top = 498.897960000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line34: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 521.575140000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape123: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 544.252320000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape124: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 566.929500000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape125: TfrxShapeView
+          AllowVectorExport = True
           Left = 446.307120790000000000
           Top = 544.252320000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape126: TfrxShapeView
+          AllowVectorExport = True
           Left = 657.677490000000000000
           Top = 544.252320000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line35: TfrxLineView
+          AllowVectorExport = True
           Left = 446.307120790000000000
           Top = 566.929500000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape127: TfrxShapeView
+          AllowVectorExport = True
           Left = 366.614410000000000000
           Top = 589.606680000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape128: TfrxShapeView
+          AllowVectorExport = True
           Left = 366.614410000000000000
           Top = 612.283860000000000000
           Width = 79.370078740000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape129: TfrxShapeView
+          AllowVectorExport = True
           Left = 446.267850790000000000
           Top = 589.606680000000000000
           Width = 211.653616540000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape130: TfrxShapeView
+          AllowVectorExport = True
           Left = 657.638220000000000000
           Top = 589.606680000000000000
           Width = 52.913385830000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line36: TfrxLineView
+          AllowVectorExport = True
           Left = 446.267850790000000000
           Top = 612.283860000000000000
           Width = 211.653543310000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Memo30: TfrxMemoView
+          AllowVectorExport = True
           Left = 374.173470000000000000
           Top = 702.213050000000000000
           Width = 60.472480000000000000
@@ -45765,12 +46192,14 @@ object Form1: TForm1
           Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = []
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[ADOQuery1."horario_admi"]')
           ParentFont = False
         end
         object Memo45: TfrxMemoView
+          AllowVectorExport = True
           Left = 442.205010000000000000
           Top = 702.992580000000000000
           Width = 60.472480000000000000
@@ -45780,12 +46209,14 @@ object Form1: TForm1
           Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = []
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[ADOQuery1."horario_admi"]')
           ParentFont = False
         end
         object Memo60: TfrxMemoView
+          AllowVectorExport = True
           Left = 510.236550000000000000
           Top = 702.992580000000000000
           Width = 60.472480000000000000
@@ -45795,12 +46226,14 @@ object Form1: TForm1
           Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = []
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[ADOQuery1."horario_admi"]')
           ParentFont = False
         end
         object Memo61: TfrxMemoView
+          AllowVectorExport = True
           Left = 578.268090000000000000
           Top = 701.213050000000000000
           Width = 60.472480000000000000
@@ -45810,12 +46243,14 @@ object Form1: TForm1
           Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = []
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[ADOQuery1."horario_admi"]')
           ParentFont = False
         end
         object Memo62: TfrxMemoView
+          AllowVectorExport = True
           Left = 646.299630000000000000
           Top = 701.213050000000000000
           Width = 60.472480000000000000
@@ -45825,6 +46260,7 @@ object Form1: TForm1
           Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = []
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             '[ADOQuery1."horario_admi"]')
@@ -45833,22 +46269,27 @@ object Form1: TForm1
       end
       object PageHeader1: TfrxPageHeader
         FillType = ftBrush
+        Frame.Typ = []
         Height = 90.708720000000000000
         Top = 16.000000000000000000
         Width = 763.087107000000000000
         object Shape1: TfrxShapeView
+          AllowVectorExport = True
           Left = 53.811070000000000000
           Top = 3.779530000000000000
           Width = 291.023810000000000000
           Height = 83.149660000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Picture1: TfrxPictureView
+          AllowVectorExport = True
           Left = 54.811070000000000000
           Top = 7.559060000000000000
           Width = 283.464750000000000000
           Height = 56.692950000000000000
+          Frame.Typ = []
           Picture.Data = {
             0954506E67496D61676589504E470D0A1A0A0000000D49484452000003010000
             004A0806000000E36858270000000473424954080808087C0864880000000970
@@ -52052,6 +52493,7 @@ object Form1: TForm1
           TransparentColor = clWhite
         end
         object Memo1: TfrxMemoView
+          AllowVectorExport = True
           Left = 57.590600000000000000
           Top = 53.590600000000000000
           Width = 275.905690000000000000
@@ -52061,6 +52503,7 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             
@@ -52070,22 +52513,27 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Shape2: TfrxShapeView
+          AllowVectorExport = True
           Left = 0.897650000000000000
           Top = 3.779530000000000000
           Width = 52.913420000000000000
           Height = 83.149660000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape3: TfrxShapeView
+          AllowVectorExport = True
           Left = 0.897650000000000000
           Top = 68.031540000000000000
           Width = 52.913420000000000000
           Height = 18.897650000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo3: TfrxMemoView
+          AllowVectorExport = True
           Left = -12.220470000000000000
           Top = 68.031540000000000000
           Width = 79.370130000000000000
@@ -52095,6 +52543,7 @@ object Form1: TForm1
           Font.Height = -7
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'N'#176' DE TARJETA')
@@ -52102,14 +52551,17 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Line7: TfrxLineView
+          AllowVectorExport = True
           Left = 355.055350000000000000
           Top = 6.559060000000000000
           Height = 925.984850000000000000
           Color = clBlack
           Frame.Style = fsDot
+          Frame.Typ = []
           Diagonal = True
         end
         object Shape16: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 7.559059999999990000
           Width = 343.937230000000000000
@@ -52117,10 +52569,12 @@ object Form1: TForm1
           Fill.BackColor = clMedGray
           Frame.Color = clBackground
           Frame.ShadowColor = clMedGray
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Memo16: TfrxMemoView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 8.559059999999990000
           Width = 79.370130000000000000
@@ -52130,6 +52584,7 @@ object Form1: TForm1
           Font.Height = -8
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'RELOJ MARCADOR'
@@ -52139,6 +52594,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo17: TfrxMemoView
+          AllowVectorExport = True
           Left = 492.378170000000000000
           Top = 15.118120000000000000
           Width = 98.267780000000000000
@@ -52148,6 +52604,7 @@ object Form1: TForm1
           Font.Height = -8
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'FIRMA DEL PERSONAL')
@@ -52155,6 +52612,7 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Memo23: TfrxMemoView
+          AllowVectorExport = True
           Left = 662.457020000000000000
           Top = 13.118120000000000000
           Width = 41.574830000000000000
@@ -52164,6 +52622,7 @@ object Form1: TForm1
           Font.Height = -9
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = []
           HAlign = haCenter
           Memo.UTF8W = (
             'D'#205'A')
@@ -52171,74 +52630,92 @@ object Form1: TForm1
           VAlign = vaCenter
         end
         object Line2: TfrxLineView
+          AllowVectorExport = True
           Left = 448.803340000000000000
           Top = 7.559059999999990000
           Height = 37.795300000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line4: TfrxLineView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 7.559059999999990000
           Height = 37.795300000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Shape17: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 45.354360000000000000
           Width = 79.370130000000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape26: TfrxShapeView
+          AllowVectorExport = True
           Left = 367.653680000000000000
           Top = 68.031540000000000000
           Width = 79.370130000000000000
           Height = 22.677180000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape31: TfrxShapeView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 45.354360000000000000
           Width = 211.653680000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Shape36: TfrxShapeView
+          AllowVectorExport = True
           Left = 658.677490000000000000
           Top = 45.354360000000000000
           Width = 52.913420000000000000
           Height = 45.354360000000000000
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Shape = skRoundRectangle
         end
         object Line5: TfrxLineView
+          AllowVectorExport = True
           Left = 447.047380790000000000
           Top = 68.031540000000000000
           Width = 211.653616540000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line6: TfrxLineView
+          AllowVectorExport = True
           Left = 492.378170000000000000
           Top = 45.354360000000000000
           Width = 117.165430000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
         object Line22: TfrxLineView
+          AllowVectorExport = True
           Left = 492.378170000000000000
           Top = 45.354360000000000000
           Width = 117.165430000000000000
           Color = clBlack
+          Frame.Typ = []
           Frame.Width = 2.000000000000000000
           Diagonal = True
         end
@@ -52252,11 +52729,13 @@ object Form1: TForm1
       Font.Style = []
       BorderStyle = bsToolWindow
       Caption = 'Impresion Tarjetas docentes'
-      Height = 333.000000000000000000
+      DoubleBuffered = False
+      Height = 341.000000000000000000
       ClientHeight = 302.000000000000000000
       Left = 478.000000000000000000
       Top = 156.000000000000000000
-      Width = 316.000000000000000000
+      Width = 324.000000000000000000
+      Scaled = True
       ClientWidth = 308.000000000000000000
       OnShow = 'DialogPage1OnShow'
       object Button1: TfrxButtonControl
@@ -57712,8 +58191,8 @@ object Form1: TForm1
         Height = 21.000000000000000000
         ShowHint = True
         Color = clWindow
-        Date = 41555.382555219900000000
-        Time = 41555.382555219900000000
+        Date = 41555.000000000000000000
+        Time = 0.382555219897767500
         WeekNumbers = False
       end
     end
